@@ -1,0 +1,2 @@
+# tsukutopi_azure
+Azureでデプロイしたディレクトリ
