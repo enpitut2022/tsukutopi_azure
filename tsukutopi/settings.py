@@ -17,7 +17,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # データベースのパスとかを代入している
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'django-insecure-d7f4c5f6o%iv$^3euh9-&h3=_2^!oqot!f6efj-0!kv47_4eu6'
+# SECRET_KEY = os.environ['SECRET_KEY']
 DBNAME=os.environ['DBNAME']
 DBHOST=os.environ['DBHOST']
 DBUSER=os.environ['DBUSER']
@@ -33,7 +34,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
